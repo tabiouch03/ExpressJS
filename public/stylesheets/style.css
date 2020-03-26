@@ -1,0 +1,21 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: rgba(31, 29, 29, 0.993);
+}
+
+.navbar-brand {
+  position: absolute;
+  left: 46%;
+  display: block;
+  text-align: center;
+  font-size: 30px;
+}
+.navbar>.container .navbar-brand, 
+.navbar>.container-fluid .navbar {
+  margin-left: -80px;
+}
+
+nav {
+  height: 50px;
+}
